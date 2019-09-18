@@ -1,0 +1,44 @@
+
+.box{
+    margin:0 auto; 
+    width:400px;
+    height: 120px;
+    padding:30px;
+    background-color: rgb(253, 188, 199);
+    border:1px solid #333;
+    border-radius: 20%;
+}
+#welcome_msg{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+}
+#note{
+    text-align: center;
+    font-size: 19px;
+    color: dimgray;
+}
+#error{
+    color:red;
+    text-align: center;
+}
+#topbar{
+    background-color: darkmagenta;
+    
+}
+h1{
+    color: antiquewhite;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+footer{
+    padding:14px;
+    background-color: #333;
+    color: antiquewhite;
+}
+form{
+    padding: 14px;
+    text-align: center;
+}

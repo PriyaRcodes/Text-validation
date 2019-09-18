@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+ <html lang="en"> <!-- For specifying the language code as English. It can be followed by a country code -->
+    <head>
+        <meta charset="UTF-8"> <!-- Unicode Transformation Format using 8-bit code to represent a character.-->
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Form Validator</title>
+    </head>
+    <body>
+        <header>
+            <div id="topbar">
+                <h1>Form validator</h1>  
+            <hr>
+            </div> 
+        </header>
+        <br><br>
+        <p id="note">Enter details correctly to get the Welcome message!</p>
+        <br>
+        <div class="box">
+            <form>
+                Your First Name:  <input type="text" id="fname_tb" onkeypress="return checkName(event,this)" required><br><br>
+                Your Last Name:  <input type="text" id="lname_tb" onkeyup="return checkName(event,this)" required><br><br>
+                <input type="button" value="Submit" onclick="onSubmit()">
+            </form>
+        </div>
+        <p id="error"></p>
+        <p id="welcome_msg"></p>
+        <br><br><br><br><br>
+        <hr>
+        <footer>
+            <small>Copyright © 2019, Made with ❤️ by Priya R</small>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
